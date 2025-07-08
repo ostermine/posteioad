@@ -1,0 +1,16 @@
+email_setup:
+  admin_instruction: |
+    Новый ящик для: {{ username }}
+    Адрес почты: {{ mailbox }}
+    Пароль: <b>{{ password }}</b>
+
+    Веб-клиент (работать с почтой в браузере): https://mail.test.ru/webmail/
+
+    Настройка на ПК (Outlook, Почта):
+    - Сервер входящей почты: mail.test.ru (IMAP, порт 143)
+    - Сервер исходящей почты: mail.test.ru (SMTP, порт 587)
+
+    Настройка на телефоне:
+    - Рекомендуемая программа Blue Mail
+    - IMAP, сервер: mail.test.ru, порт 143, шифрование STARTTLS
+    - SMTP, сервер: mail.test.ru, порт 587, шифрование STARTTLS

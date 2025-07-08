@@ -1,0 +1,16 @@
+ldap:
+  server: "192.168.100.1" # контроллер домена
+  user: "DOMAIN\\user"
+  passwd: "replaceme"
+  search_base: "CN=mail,OU=groups,DC=domain,DC=loc"
+  base_dn: "DC=domain,DC=loc"
+poste:
+  address: python@test.ru
+  password: replaceme
+  domain: mail.test.ru
+  verify_ssl: false
+  mail_domain: test.ru
+tg:
+  token: 8007100000:AAFDaaaaalKaa4OaOLPVqTt97aaSeaa0Jq1
+  admin_chat_id: -4774600000
+  log_chat_id: -100240300000
